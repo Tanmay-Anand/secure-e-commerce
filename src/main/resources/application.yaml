@@ -1,3 +1,17 @@
+server:
+  port: 8080
+
 spring:
-  application:
-    name: secure-E-Commerce
+  datasource:
+    url: jdbc:postgresql://localhost:5432/secure_ecommerce
+    username: postgres2
+    password: postgres2
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+
+jwt:
+  secret: p9RkA4ZxQ7N2wLhM5fJdC6S0YB8E1tHqVnUsPKeoWiGr
+  expiration: 3600000
