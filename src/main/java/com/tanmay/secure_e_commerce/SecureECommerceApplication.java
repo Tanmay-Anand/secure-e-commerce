@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SecureECommerceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SecureECommerceApplication.class, args);
+
+        SpringApplication.run(SecureECommerceApplication.class, args);
 	}
 
 }
