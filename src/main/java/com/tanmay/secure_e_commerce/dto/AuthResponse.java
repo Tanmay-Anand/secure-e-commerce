@@ -3,9 +3,10 @@ package com.tanmay.secure_e_commerce.dto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @Data
-@AllArgsConstructor
+@ToString(exclude = "token")
 @NoArgsConstructor
 public class AuthResponse {
     private String token;
